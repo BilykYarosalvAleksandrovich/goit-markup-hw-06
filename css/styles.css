@@ -283,6 +283,10 @@ img {
 /* #endregion section menu */
 
 /* #region section team */
+.team .container {
+  max-width: 296px;
+}
+
 .team {
   background-color: #f4f4fd;
   padding-top: 96px;
@@ -770,12 +774,13 @@ textarea:focus {
 /* #endregion modal form */
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container,
+  .team .container {
     max-width: 768px;
   }
 
   .team .container {
-    max-width: 550px;
+    max-width: 582px;
   }
   .menu-list {
     gap: 72px 24px;
@@ -789,8 +794,8 @@ textarea:focus {
   }
 
   .team-list {
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     gap: 64px 24px;
   }
 
