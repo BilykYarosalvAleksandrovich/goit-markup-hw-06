@@ -52,16 +52,16 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu-open>
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">Close</button>
-          <nav>Navigation</nav>
+          <button class="mobile-menu-close" data-menu-close>Close</button>
+          <nav class="mobile-menu-nav">Navigation</nav>
           <address>Address</address>
           <div>Soc Link</div>
         </div>
@@ -596,5 +596,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
