@@ -203,6 +203,7 @@ img {
   fill: #2f2f37;
 }
 
+/* #region mobile menu */
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -236,6 +237,40 @@ img {
 .mobile-menu-nav {
   margin-bottom: auto;
 }
+
+.mobile-menu-nav {
+}
+.mobile-list {
+}
+.mobile-item {
+}
+.mobile-link {
+}
+.current {
+}
+.mobile-address {
+}
+.mobile-address-list {
+}
+.mobile-address-item {
+}
+.mobile-address-link {
+}
+.mobile-menu-social {
+}
+.team-box-list {
+}
+.mobile-special-list {
+}
+.team-box-item {
+}
+.team-box-link {
+}
+.fbl {
+}
+.team-box-svg {
+}
+/* #endregion mobile menu */
 
 /* #endregion header*/
 
