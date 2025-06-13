@@ -314,7 +314,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -899,6 +899,13 @@ textarea:focus {
   .team .container {
     max-width: 768px;
   }
+  .solution {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab.jpg);
+  }
 
   .team .container {
     max-width: 582px;
@@ -1005,6 +1012,14 @@ textarea:focus {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .solution {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
   }
 
   .menu {
