@@ -322,7 +322,7 @@ img {
   padding-top: 72px;
   padding-bottom: 72px;
   max-width: 1440px;
-  /* max-width: 320px; */
+  max-width: 320px;
 }
 
 .solution-subtitle {
@@ -972,7 +972,7 @@ textarea:focus {
   .solution {
     padding-top: 112px;
     padding-bottom: 112px;
-    /* max-width: 768px; */
+    max-width: 768px;
   }
   .solution-subtitle {
     font-weight: 700;
@@ -988,6 +988,18 @@ textarea:focus {
   }
   .modal-textarea {
     min-width: 360px;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+  .footer-box-link {
+    margin: unset;
+  }
+  .footer-first-box {
+    margin-right: 24px;
   }
   .footer-logo {
     justify-content: start;
@@ -1099,7 +1111,7 @@ textarea:focus {
   .solution {
     padding-top: 188px;
     padding-bottom: 188px;
-    /* max-width: 1440px; */
+    max-width: 1440px;
   }
   .solution-subtitle {
     margin-bottom: 48px;
@@ -1111,5 +1123,11 @@ textarea:focus {
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+  .footer-first-box {
+    margin-right: 120px;
+  }
+  .footer-box-link {
+    margin-right: 80px;
   }
 }
