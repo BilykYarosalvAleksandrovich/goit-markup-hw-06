@@ -550,6 +550,7 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-content {
@@ -1120,6 +1121,10 @@ textarea:focus {
   .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .conteiner-portfolio {
+    box-shadow:none;
   }
 
   .portfolio-list {
