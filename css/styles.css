@@ -877,12 +877,21 @@ textarea:focus {
   letter-spacing: 0.04em;
   color: #8e8f99;
   align-items: center;
+  display: flex;
 }
 
 .modal-check:checked + .check-text .check-element {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.modal-check {
+  flex-shrink: 0;
+}
+
+.span-privacy-policy {
+  /* flex-shrink: 0; */
 }
 
 .btn {
