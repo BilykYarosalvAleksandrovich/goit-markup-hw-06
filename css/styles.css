@@ -272,10 +272,6 @@ img {
   color: #404bbf;
 }
 
-.mobile-address {
-}
-.mobile-address-list {
-}
 .mobile-address-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -296,16 +292,6 @@ img {
   align-items: center;
   max-width: 280px;
   gap: 40px;
-}
-.mobile-special-list {
-}
-.team-box-item {
-}
-.team-box-link {
-}
-.fbl {
-}
-.team-box-svg {
 }
 /* #endregion mobile menu */
 
@@ -586,6 +572,7 @@ img {
 
 .footer-first-box {
   /* margin-right: 120px; */
+  margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -612,7 +599,6 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  padding-bottom: 72px;
 }
 
 .footer-box-link {
@@ -621,6 +607,7 @@ img {
   /* align-items: baseline; */
   max-width: 208px;
   margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .footer-box-text {
@@ -635,7 +622,6 @@ img {
 
 .footer-special-list {
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .fbl:hover,
@@ -1056,6 +1042,7 @@ textarea:focus {
 
   .footer-input {
     width: 264px;
+    margin: unset;
   }
 }
 
@@ -1187,8 +1174,10 @@ textarea:focus {
   }
   .footer-first-box {
     margin-right: 120px;
+    margin-bottom: unset;
   }
   .footer-box-link {
     margin-right: 80px;
+    margin-bottom: unset;
   }
 }
