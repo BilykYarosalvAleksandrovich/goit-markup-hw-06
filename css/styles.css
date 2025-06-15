@@ -244,8 +244,11 @@ img {
   margin-bottom: auto;
 }
 
-.mobile-menu-nav {
+.mobile-link.current,
+.mobile-address-link.current{
+  color:#404bbf;
 }
+
 .mobile-list {
   margin-bottom: 50px;
 }
@@ -868,6 +871,7 @@ textarea:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    flex-shrink: 0;
 }
 
 .check-images {
