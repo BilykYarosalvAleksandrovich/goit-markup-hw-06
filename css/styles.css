@@ -50,15 +50,16 @@ img {
 }
 
 .subtitle-text {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
 }
 
 .about {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -406,6 +407,18 @@ img {
   align-items: center;
 }
 
+.subtitle-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.about {
+  font-weight: 500;
+}
+
+
 .menu-text {
 }
 /* #endregion section menu */
@@ -449,9 +462,6 @@ img {
 }
 
 .team-content {
-}
-
-.subtitle-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -501,9 +511,6 @@ img {
 .portfolio {
   padding-top: 96px;
   padding-bottom: 96px;
-}
-
-.portfolio-subtitle {
 }
 
 .portfolio-list {
@@ -557,6 +564,9 @@ img {
 }
 
 .portfolio-content {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .portfolio-text {
@@ -939,10 +949,10 @@ textarea:focus {
   }
 
   .team .container {
-    max-width: 582px;
+    max-width: 584px;
   }
   .menu-list {
-    gap: 72px 24px;
+    gap: 64px 24px;
   }
   .menu-item {
     width: calc((100% - 24px) / 2);
@@ -1102,6 +1112,10 @@ textarea:focus {
     margin-bottom: 8px;
     align-items: center;
     justify-content: center;
+  }
+
+  .about {
+    font-weight: 400;
   }
 
   .team {
